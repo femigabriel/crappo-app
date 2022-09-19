@@ -7,7 +7,7 @@ function GraphContent() {
     <div className="flex ">
       <img src={main} className="main" alt="" />
       <div className="pt-10 pl-20">
-        {/* <img src={D} className="d-line" alt="logo" /> */}
+        <img src={D} className="d-line" alt="logo" />
 
         <h1 className="pt-20 main-h">Why you should choose CRAPPO</h1>
         <p className="main-p">
@@ -16,7 +16,7 @@ function GraphContent() {
         </p>
 
         <button className="btn-more">Learn More</button>
-        {/* <img src={u} className="u-line" alt="" /> */}
+        <img src={u} className="u-line" alt="" />
       </div>
     </div>
   );

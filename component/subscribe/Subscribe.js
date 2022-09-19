@@ -4,9 +4,10 @@ const B = "/images/B.png";
 const Hector = "/images/Hector.png";
 const left = "/images/left.png";
 const right = "/images/right.png";
+
 function Subscribe() {
   return (
-    <div className="p-20">
+    <div className="p-20 pt-40">
       <img src={Hector} className="hector" alt="" />
       <div className="subscribe p-10 pl-20 pr-20 flex justify-between ">
         <div className="flex flex-col">
@@ -28,6 +29,7 @@ function Subscribe() {
           <img src={B} className="b-image" alt="logo" />
         </div>
       </div>
+      
     </div>
   );
 }

@@ -26,6 +26,7 @@ import MobileSub from "../component/mobile/MobileSub";
 import MobileFooter from "../component/mobile/MobileFooter";
 import MobCalculator from "../component/mobile/MobCalculator";
 import Calculator from "../component/calculator/Calculator";
+import SubPillars from "../component/subscribe/SubPillars";
 
 function index() {
   return (
@@ -49,7 +50,11 @@ function index() {
           <Statistics />
           <Price />
         </div>
-        <Subscribe />
+        <div className="sub">
+          <Subscribe />
+          <SubPillars />
+        </div>
+
         <Footer />
         <FooterSocials />
       </div>

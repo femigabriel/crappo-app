@@ -8,7 +8,7 @@ function MarkPortfolio() {
     <img src={o} className="o-image" alt="Chart" />
       <div className="flex justify-center items-center">
         <div>
-          <h1 className="market-h text-4xl	pb-10">
+          <h1 className="market-h text-center pb-10">
             Market sentiments, portfolio, and run the infrastructure of your
             choice
           </h1>

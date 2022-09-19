@@ -17,7 +17,7 @@ function Price() {
       </div>
       <div className="">
         <img src={quater} className="o-line" alt="" />
-        <img src={Table} className="Chart " alt="Chart" />
+        <img src={Table} className="pr-20 mt-40 " alt="Chart" />
       </div>
     </div>
   );

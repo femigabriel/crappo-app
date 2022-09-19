@@ -6,7 +6,7 @@ const Bitcoin = "/images/Bitcoin.png";
 
 function Footer() {
   return (
-    <div className="p-20 flex justify-between">
+    <div className=" pt-40 p-20 flex justify-between">
       <div className="w-40">
         <img src={Logo} className="logo" alt="logo" />
       </div>

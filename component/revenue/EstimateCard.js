@@ -14,7 +14,7 @@ function EstimateCard() {
       </div>
 
       <div className="flex justify-between text-center p-20">
-        <div className="card bg-violet-900 rounded-md p-2 drop-shadow-lg">
+        <div className="card-1 bg-violet-900 rounded-md p-2 shadow-2xl">
           <div className="icon">
             <img src={Icon} className="" alt="icon" />
           </div>
@@ -29,14 +29,14 @@ function EstimateCard() {
               Digital currency in which a record of transactions is maintained.
             </p>
           </div>
-          <div>
-            <button className="bg-blue-400 font-medium flex text-center m-5 ml-36 p-5 rounded-3xl text-lg ">
+          <div className="flex justify-center items-center pb-10">
+            <button className="btn-start bg-blue-400 font-medium flex text-center m-5 p-5 rounded-3xl text-lg ">
               Start mining
               <RightOutlined className=" text-center bg-white  rounded-full text-sky-500 ml-3 p-1" />
             </button>
           </div>
         </div>
-        <div className="card bg-slate-50 rounded-md p-2 drop-shadow-lg text-black	">
+        <div className="card bg-slate-50 rounded-md p-2 shadow-2xl text-black	">
           <div className="icon">
             <img src={Icon2} className="" alt="icon" />
           </div>
@@ -52,11 +52,11 @@ function EstimateCard() {
               applications.
             </p>
           </div>
-          <div className="pt-10">
-            <RightOutlined className=" text-center bg-white border text-4xl	rounded-full text-sky-600  p-5" />
+          <div className="pt-10 flex justify-center items-center">
+            <RightOutlined className="card-icon text-center bg-white border text-xl text-sky-600  p-5 pt-6" />
           </div>
         </div>
-        <div className="card bg-slate-50	rounded-md p-2 drop-shadow-lg text-black">
+        <div className="card bg-slate-50	rounded-md p-2 shadow-2xl text-black">
           <div className="icon">
             <img src={Icon3} className="" alt="icon" />
           </div>
@@ -73,7 +73,7 @@ function EstimateCard() {
             </p>
           </div>
           <div className="pt-10">
-            <RightOutlined className=" text-center bg-white border text-4xl	rounded-full text-sky-600 ml-3 p-5" />
+            <RightOutlined className="card-icon  text-center bg-white border text-xl	rounded-full text-sky-600 ml-3 p-5 pt-6" />
           </div>
         </div>
       </div>

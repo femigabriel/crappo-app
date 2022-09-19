@@ -25,7 +25,7 @@ function Main() {
         <div>
           <button className="btn-free flex ">
             Try for FREE
-            <RightOutlined className=" text-center bg-white  rounded-full text-sky-500 ml-6 p-1" />
+            <RightOutlined className="free text-center bg-white  rounded-full text-sky-500 ml-6 p-1" />
           </button>
         </div>
       </div>
