@@ -41,7 +41,7 @@ function EstimateCard() {
             <img src={Icon2} className="" alt="icon" />
           </div>
           <div className="pt-20">
-            <h1 className="text-4xl font-bold	pb-10">
+            <h1 className="text-4xl text-black font-bold	pb-10">
               Ethereum
               <span className="text-2xl text-zinc-200 pl-3	font-medium">
                 ETH
@@ -61,7 +61,7 @@ function EstimateCard() {
             <img src={Icon3} className="" alt="icon" />
           </div>
           <div className="pt-20">
-            <h1 className="text-4xl font-bold	pb-10">
+            <h1 className="text-4xl text-black font-bold	pb-10">
               Litecoin
               <span className="text-2xl text-zinc-200 pl-3	font-medium">
                 LTC
