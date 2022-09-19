@@ -8,17 +8,17 @@ function index() {
         <img src={Logo} className="logo" alt="logo" />
       </div>
       <div></div>
-      <div className="item-flex flex ">
-        <nav className="flex pl-5 pr-5">
+      <div className="flex ">
+        <nav className="flex ml-40 ">
           <ul className="items flex text-xl ">
-            <li className="mr-5 item ">Product</li>
-            <li className="mr-5 item  ">Features</li>
-            <li className="mr-5 item ">About</li>
-            <li className="item mr-5  ">Contact</li>
+            <li className="mr-20 item ">Product</li>
+            <li className="mr-20 item  ">Features</li>
+            <li className="mr-20 item ">About</li>
+            <li className="item mr-20  ">Contact</li>
           </ul>
         </nav>
-        <div className="flex">
-          <h3 className="login pl-3">Login</h3>
+        <div className="flex pl-48">
+          <h3 className="login pl-3 text-white">Login</h3>
           <div className=" pl-6">
             <button className=" register ">Register</button>
           </div>
