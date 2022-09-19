@@ -9,7 +9,7 @@ function Calculator() {
         <div>
           <h4 className="cal-flex">Enter your hash rate</h4>
           <Input
-            className="cal-input border-o bg-inherit border-b-2 pt-2"
+            className="cal-input border-0 bg-inherit border-b-2 pt-2"
             placeholder=""
           />
         </div>
@@ -19,7 +19,7 @@ function Calculator() {
             <CaretDownOutlined className="text-gray-400" />
           </div>
           <Input
-            className="border-o bg-inherit border-b-2 pt-2 w-full"
+            className="border-0 bg-inherit border-b-2 pt-2 w-full"
             placeholder=""
           />
         </div>
