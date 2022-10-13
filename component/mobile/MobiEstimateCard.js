@@ -3,6 +3,8 @@ const Icon = "/images/Icon.png";
 const Icon2 = "/images/Icon2.png";
 const Icon3 = "/images/Icon3.png";
 import { RightOutlined } from "@ant-design/icons";
+import Cards from "../revenue/Cards";
+// import Cards from "./Cards";
 
 function MobiEstimateCard() {
   return (
@@ -12,7 +14,7 @@ function MobiEstimateCard() {
           Trade securely and market the high growth cryptocurrencies.
         </h1>
       </div>
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <div className="flex flex-col">
           <div className=" w-120 bg-violet-900 rounded-xl p-5 drop-shadow-lg mb-10">
             <div className="icon">
@@ -78,6 +80,9 @@ function MobiEstimateCard() {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="pb-5">
+      <Cards />
       </div>
     </div>
   );

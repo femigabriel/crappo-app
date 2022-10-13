@@ -4,7 +4,7 @@ const D = "/images/D.png";
 const u = "/images/u.png";
 function GraphContent() {
   return (
-    <div className="flex ">
+    <div className="flex  bounce-in">
       <img src={main} className="main" alt="" />
       <div className="pt-10 pl-20">
         <img src={D} className="d-line" alt="logo" />

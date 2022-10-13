@@ -3,7 +3,7 @@ const Logo = "/images/Logo.png";
 
 function index() {
   return (
-    <div className="text-center p-5 flex justify-between">
+    <div className="text-center p-5 flex justify-between pt-20">
       <div className="w-40">
         <img src={Logo} className="logo" alt="logo" />
       </div>

@@ -21,7 +21,7 @@ function MobileStats() {
         <img src={Table} className="pr-20 w-full " alt="Chart" />
       </div>
       <div className="text-center p-20">
-        <h1 className="text-center text-5xl	font-bold leading-10 pb-10 pt-5">
+        <h1 className=" grow text-center text-5xl	font-bold leading-10 pb-10 pt-5">
           Grow your profit and track your investments
         </h1>
         <p className=" leading-7 pb-3 pt-5">

@@ -9,7 +9,7 @@ function EstimatedRevenue() {
           <h4 className="estimate-numb font-bold">
             0.055 130 59 ETH
             <span>($1275)</span>
-            <p className="text-zinc-400">
+            <p className="text-zinc-400 text-xl	font-normal ">
               Revenue will change based on mining difficulty and Ethereum price.
             </p>
           </h4>

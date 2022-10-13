@@ -2,21 +2,32 @@ import React from "react";
 const Illustration = "/images/Illustration.png";
 const Pillar1 = "/images/Pillar1.png";
 import { RightOutlined } from "@ant-design/icons";
+import BtnSave from "./BtnSave";
+import { motion } from "framer-motion";
 
 function Main() {
   return (
     <div className="flex justify-between ">
       <div>
-        <div className="flex  pt-10 pb-10 font-semibold">
-          <button className="btn-B">
-            <span className="btn-A text-#0d0d2b bg-white ">75% Save</span>For
-            the Black Friday weekend
-          </button>
-        </div>
-        <div>
-          <h1 className="main-content ">
+        <div className="pt-20 ">
+          <BtnSave className="" />
+          {/* <motion.h1 className="main-content pt-10 ">
             Fastest & secure platform to invest in crypto
-          </h1>
+          </motion.h1> */}
+          <motion.h1
+            className="main-content pt-10  bounce-in"
+            animate={{ x: 10 }}
+            initial={{ x: 0 }}
+            // className="box"
+          >
+            Fastest & secure platform to invest in crypto
+          </motion.h1>
+          {/* <ScrollAnimation animateIn="wobble" initiallyVisible={true}>
+            <h1 className="main-content pt-10 ">
+              Fastest & secure platform to invest in crypto
+            </h1>
+          </ScrollAnimation> */}
+
           <p className="main-p">
             Buy and sell cryptocurrencies, trusted by 10M wallets with over $30
             billion in transactions.
@@ -30,7 +41,27 @@ function Main() {
         </div>
       </div>
       <div className="">
-        <img src={Illustration} className="crypto " alt="logo" />
+        <motion.img
+          className="crypto"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            default: {
+              duration: 0.3,
+              ease: [0, 0.71, 0.2, 1.01],
+            },
+            scale: {
+              type: "spring",
+              damping: 5,
+              stiffness: 100,
+              restDelta: 0.001,
+            },
+          }}
+          src={Illustration}
+          // className="crypto "
+          alt="logo"
+        />
+        {/* <img src={Illustration} className="crypto " alt="logo" /> */}
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ const Statistic = "/images/Statistic.png";
 
 function Statistics() {
   return (
-    <div className="flex ">
+    <div className="flex  bounce-in">
       <div className="">
         <img src={Statistic} className="Chart " alt="Chart" />
       </div>

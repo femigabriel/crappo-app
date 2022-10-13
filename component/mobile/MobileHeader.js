@@ -7,7 +7,7 @@ function MobileHeader() {
     <div className="flex justify-between pt-5">
       <div className="flex flex-col">
         <div className="p-10 text-center">
-          <h1 className="text-7xl font-bold pb-5">
+          <h1 className="grow text-7xl font-bold pb-5">
             Fastest & secure platform to invest in crypto.
           </h1>
           <p className="p-5 text-3xl ">
@@ -15,7 +15,7 @@ function MobileHeader() {
             billion in transactions.
           </p>
         </div>
-        <div className="p-5">
+        <div className="p-5 ">
           <img src={Illustration} className=" illus-mob" alt="logo" />
         </div>
         <div className="flex justify-center items-center pt-10">

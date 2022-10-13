@@ -21,7 +21,7 @@ function Subscribe() {
         <div className="pt-5">
           <p className="text-white">Enter your email</p>
           <div>
-            <Input className="email-input border-0 bg-inherit border-b-2 pt-2  	" />
+            <Input className="email-input border-0 bg-inherit border-b-2 pt-2 " />
           </div>
         </div>
         <div className="pt-5">
