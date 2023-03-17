@@ -9,8 +9,8 @@ import Cards from "./Cards";
 function EstimateCard() {
   return (
     <div>
-      <div className="text-center pl-80 pb-20">
-        <h1 className="trade-h text-black text-6xl	font-bold pt-20  ">
+      <div className="flex justify-center items-center pb-20">
+        <h1 className="trade-h text-black text-4xl leading-10	font-bold pt-20  ">
           Trade securely and market the high growth cryptocurrencies.
         </h1>
       </div>

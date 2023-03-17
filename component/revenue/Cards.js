@@ -32,9 +32,10 @@ function Cards() {
     hidden: { opacity: 0, scale: 0 },
   };
   return (
-    <div className="mob-card bounce flex justify-between text-center p-20 ">
+    <div className="mob-card bounce flex justify-between text-center p-20 pt-10">
       {items.map((list, key) => (
         <motion.div
+          key={list.key}
           variants={boxVariant}
           initial="hidden"
           animate="visible"
